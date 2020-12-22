@@ -1,0 +1,116 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Noto+Serif+JP:wght@200;300;400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{ 
+    font-family: 'Noto Serif JP', serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: inherit;
+}
+
+img{ margin: 10px 10px 10px 10px;
+    
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgb(58 58 58 / .993);
+    border-color: #ffffba;
+}
+
+.btn-block{ margin: 10px 10px 10px 10px;
+    width: 98%;
+}
+
+
+
+.navbar-inverse{
+    background-color: rgb(58 58 58 / 0.99);
+    color: #ffffba;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+    background-color:rgba(58, 58, 58, 0.993);
+    color: #ffffba
+}
+
+section#itemsInner{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+article#items{
+    position: relative;
+}
+
+div.moreleft, div.moreright {
+    position: absolute;
+    height: 100%;
+    width: 2em;
+    background: rgba(255, 255, 255, .5);
+    bottom: 0;
+}
+
+div.moreleft {
+    left: 0;
+}
+
+div.moreright {
+    left: 0;
+}
+
+.scrollleft, .scrollright {
+    position: absolute;
+    transform: scaleY(2);
+    bottom: 50%;
+    font-size: 1.2em;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scrollleft{
+    left: 0;
+}
+
+.scrollright{
+    right: 0;
+}
+
+a.left-button, a.right-button {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+   
+
+head{
+    background-color:rgb(58, 58, 58);
+    color:white;
+}
+
+
+footer{ 
+    background-color: rgba(58, 58, 58, 0.993);
+    color: #ffffba;
+}
+
+body{ color: rgba(58, 58, 58, 0.993);
+background-color: #ffffba;}
+
+
+button{
+    color: rgba(58, 58, 58, 0.993);
+
+}
+
+
+    
+
+
